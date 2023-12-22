@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>sign-up</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="bg">
+	<div class="img-container"><img src="assets/status-bar.svg" alt="status-bar" class="status-bar"></div>
+	<div class="logo-container">
+		<img src="assets/logo.svg" alt="logo" class="logo">
+	</div>
+	<h1 class="heading">For Individuals</h1>
+	<p class="para">
+		Inspiring wholesome harmony for the mind, body and spirit, for everyone, everywhere
+	</p>
+	<form action="">
+		<div class="container">
+			<div class="form-fields">
+
+				<label for="f-name">First Name</label> <br>
+				<input class="input-field" type="text" name="firstname" id="f-name" value="Tolu"> <br>
+				<label for="l-name">Last Name</label><br>
+				<input class="input-field" type="text" name="last-name" id="l-name"><br>
+				<label for="gender">Gender</label><br>
+				<select class="input-field gender" name="gender" id="gender">
+					<option value="select">Select here</option>
+					<option value="male">male</option>
+					<option value="female">female</option>
+					<option value="non-binary">Non-binary</option>
+					<option value="empty">Prefer not to say</option>
+				</select><br>
+				<label for="dob">Date of Birth</label><br>
+				<input class="input-field" type="text" name="dob" id="dob" placeholder="Select here"
+					onfocus="(this.type='date')"><br>
+				<label for="weight">Weight (CM)</label><br>
+				<input class="input-field" type="text" name="weight" id="weight" placeholder="Enter Weight"><br>
+				<label for="height">Height (CM)</label><br>
+				<input class="input-field" type="text" name="height" id="height" placeholder="Enter height here.."><br>
+				<label class="activity-lvl" for="activity-level">Activity level</label><br>
+				<select class="input-field activity-lvl" name="activity-lvl" id="activity-level">
+					<option value="high">Select here</option>
+					<option value="low">low</option>
+				</select><br>
+
+				<label for="pswd">Password</label><br>
+				<input class="input-field" class="input-field" type="password" name="" id="" class="pswd"><br>
+
+				<button class="btn" type="submit">Register</button><br>
+			</div>
+			<p class="para bottom">
+				By clicking Register, you agree to Our <a href="">Terms of Use</a> and our of <a href="">Privacy
+					Policy</a>
+			</p>
+		</div>
+	</form>
+</body>
+
+</html>
